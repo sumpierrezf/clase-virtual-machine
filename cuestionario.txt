@@ -1,0 +1,17 @@
+Los lenguajes de programacion compilan a lenguaje ensamblador y este es ejecutado por el sistema operativo de la
+maquina. El ensamblador depende de el procesador y del sistema operativo de la VM, por eso si la otra maquina 
+tiene un procesador diferente y/o diferente sistema operativo el codigo compilado no va a poder ejecutarse.
+Cada sistema operativo tiene sus propias herramientas y bibliotecas de codigo y pueden no ser compatibles entre 
+ellas.
+
+Los sistemas operativos que se pueden emular con VirtualBox son Windows 
+(3.x, 95, 98, ME, NT 4.0, 2000, XP, Server 2003, Vista), 
+Linux (2.2, 2.4 y 2.6), OS/2, NetBSD, FreeBSD, OpenBSD, Netware, Solaris y L4.
+Microsoft Windows, macOS, Linux, Solaris and OpenSolaris.
+
+El hypervisor administra los recursos de las VM. Es parte del software de virtualizacion, no es un S.O.
+Es un componente escencial de la tecnologia de virtualizacion.
+
+
+Si una maquina falla no afecta a las demas porque es como un sistema aislado y cada quien es independiente de 
+las otras maquinas.
